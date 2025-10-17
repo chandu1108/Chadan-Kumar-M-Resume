@@ -4,12 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* Basic Reset */
+        body {
+            margin: 0;
+            padding: 0 8%;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Center the header text */
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        /* Contact info */
+        p, ul, table {
+            font-size: 1rem;
+        }
+
+        /* Make table responsive */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .social-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 150px;
+            margin-top: 10px;
+        }
+
+        .social-links img {
+            width: 80px;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .social-links img:hover {
+            transform: scale(1.5);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            body {
+            padding: 10px;
+            }
+            h1 {
+            font-size: 1.5rem;
+            }
+            .social-links img {
+            width: 50px;
+            }
+            table {
+            font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+            font-size: 1.3rem;
+            }
+            .social-links img {
+            width: 45px;
+            }
+        }
+</style>
+
 </head>
-<body style="padding-left: 110px; padding-right: 110px;">
+<body>
     <center>
         <h1>CHANDAN KUMAR M</h1>
         
-        <p><b>Email:</b>✉ <a href="https://www.gmail.com">chandankumarm10404@gmail.com</a>&nbsp;&nbsp; 
+        <p><b>Email:</b>✉ <a href="mailto:chandankumarm10404@gmail.com">chandankumarm10404@gmail.com</a>&nbsp;&nbsp; 
             <b>Phone:</b>&#x2706; +91-9019492943&nbsp;&nbsp; 
             <a href="https://www.linkedin.com/in/chandan-kumar-m-a88722242/">Linkedin</a>&nbsp;&nbsp; 
             <a href="https://github.com/chandu1108/">GitHub</a></p>
@@ -23,7 +104,7 @@
     <hr>
     <p><b>Education:</b></p>
     <center>
-        <table border=""cellpadding=4 cellspacing="5">
+        <table border="1"cellpadding=4 cellspacing="5">
         <tr>
             <th>S.N</th>
             <th>College Name</th>
@@ -99,22 +180,27 @@
     <hr>
 
     <center><footer>Copyright &copy; &nbsp;<a href="">Chandan Kumar M</a> All Rights Reserved</footer></center>
-    <p>Contact Me:</p>&nbsp;&nbsp;&nbsp;
-     <a href="https://www.instagram.com/chandan__1108?igsh=NG9pa3RnODM0M3Vy" style="padding-right:100px;">
-        <img src="https://static.vecteezy.com/system/resources/previews/018/930/413/original/instagram-logo-instagram-icon-transparent-free-png.png" alt=""
-        height="100px" width="100px">
-    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    
-    <a href="" style="padding-right:100px;"><img src="https://static.vecteezy.com/system/resources/previews/020/009/614/non_2x/email-and-mail-icon-black-free-png.png"
-         height="100px" width="=80px" alt=""></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="" style="padding-right:100px;"><img src="https://static.vecteezy.com/system/resources/previews/025/270/403/original/github-logo-icon-free-vector.jpg"
-         height="100px" width="=100px" alt=""></a>
-    
-    <a href=""><img src="https://static.vecteezy.com/system/resources/previews/017/339/624/original/linkedin-icon-free-png.png"
-         height="100px" width="=100px" alt=""></a>
-    
-    </p>
+    <p><b>Find Me Online:</b></p>
+<div class="social-links">
+  <a href="https://www.instagram.com/chandan__1108?igsh=NG9pa3RnODM0M3Vy" target="_blank">
+    <img src="https://static.vecteezy.com/system/resources/previews/018/930/413/original/instagram-logo-instagram-icon-transparent-free-png.png" alt="Instagram">
+  </a>
 
+  <a href="mailto:chandankumarm10404@gmail.com" target="_blank">
+    <img src="https://static.vecteezy.com/system/resources/previews/020/009/614/non_2x/email-and-mail-icon-black-free-png.png" alt="Email">
+  </a>
+
+  <a href="https://github.com/chandu1108/" target="_blank">
+    <img src="https://static.vecteezy.com/system/resources/previews/025/270/403/original/github-logo-icon-free-vector.jpg" alt="GitHub">
+  </a>
+
+  <a href="https://www.linkedin.com/in/chandan-kumar-m-a88722242/" target="_blank">
+    <img src="https://static.vecteezy.com/system/resources/previews/017/339/624/original/linkedin-icon-free-png.png" alt="LinkedIn">
+  </a>
+
+  <a href="https://www.codechef.com/users/chandankumarm" target="_blank">
+    <img src="https://media-exp1.licdn.com/dms/image/C561BAQFsy8_Lq5biWg/company-background_10000/0/1605423934732?e=2159024400&v=beta&t=ysHse46hfiZaYDN2FwKiGvn9uKFbAQuyu_gjPj5PVHA" alt="CodeChef">
+  </a>
+</div>
 </body>
 </html>
