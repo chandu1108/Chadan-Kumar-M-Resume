@@ -38,21 +38,20 @@ This webpage presents my professional resume, including:
 - ✅ Lightweight — pure HTML and CSS, no frameworks  
 
 ---
-
 ## 🖼️ Folder Structure
+bash
+Copy code
 Chandan-Kumar-M-Resume/
 │
-├── index.html            
-├── Images/                
+├── index.html              # Main HTML file
+├── Images/                 # Folder containing favicon and social media icons
 │   ├── favicon.png
 │   ├── instagram.jpg
 │   ├── Email.jpg
 │   ├── Github.jpg
 │   ├── linkedin.jpg
 │   └── Codecheff.jpg
-└── README.md               
-
-
+└── README.md               # Project documentation
 ---
 
 ## ⚙️ How to Run
@@ -65,11 +64,11 @@ Open index.html in your browser.
 
 🧑‍💻 Author
 Chandan Kumar M
-📧 chandankumarm10404@gmail.com
-🔗 LinkedIn
-💻 GitHub
-📸 Instagram
-🏆 CodeChef
+📧 [chandankumarm10404@gmail.com](mailto:chandankumarm10404@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/chandan-kumar-m-a88722242/)
+💻 [GitHub](https://github.com/chandu1108/)
+📸 [Instagram](https://www.instagram.com/chandan__1108?igsh=NG9pa3RnODM0M3Vy)
+🏆 [CodeChef](https://www.codechef.com/users/chandankumarm)
 
 📜 License
 This project is open-source and available under the MIT License.
