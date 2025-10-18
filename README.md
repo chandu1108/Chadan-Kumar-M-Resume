@@ -42,18 +42,16 @@ This webpage presents my professional resume, including:
 ## 🖼️ Folder Structure
 Chandan-Kumar-M-Resume/
 │
-├── index.html # Main HTML file
-├── Images/ # Folder containing favicon and social media icons
-│ ├── favicon.png
-│ ├── instagram.jpg
-│ ├── Email.jpg
-│ ├── Github.jpg
-│ ├── linkedin.jpg
-│ └── Codecheff.jpg
-└── README.md # Project documentation
+├── index.html            
+├── Images/                
+│   ├── favicon.png
+│   ├── instagram.jpg
+│   ├── Email.jpg
+│   ├── Github.jpg
+│   ├── linkedin.jpg
+│   └── Codecheff.jpg
+└── README.md               
 
-yaml
-Copy code
 
 ---
 
