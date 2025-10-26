@@ -13,6 +13,9 @@ body {
         a:visited{
             color: rgb(249, 178, 178);
         }
+        a{
+            text-decoration: none;
+        }
         
 
         
@@ -93,3 +96,4 @@ body {
             width: 45px;
             }
         }
+
